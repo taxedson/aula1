@@ -49,6 +49,7 @@ SimpleNavigation::Configuration.run do |navigation|
     #                            when the item should be highlighted, you can set a regexp which is matched
     #                            against the current URI.  You may also use a proc, or the symbol <tt>:subpath</tt>. 
     #
+    primary.item :home, 'Home', root_path
     primary.item :dashboard, 'Dashboard', dashboard_path
     primary.item :status, 'Status', status_index_path
     primary.item :project, 'Project', projects_path
