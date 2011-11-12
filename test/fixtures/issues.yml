@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  project: 
+  subject: MyString
+  opener_user: 
+  assignee_user: 
+  status: 
+
+two:
+  project: 
+  subject: MyString
+  opener_user: 
+  assignee_user: 
+  status: 

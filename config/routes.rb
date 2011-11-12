@@ -1,5 +1,11 @@
 Aula1::Application.routes.draw do
 
+  resources :issues
+
+  resources :projects
+
+  resources :status
+
   root :to => "home#index"
   
   #get "dashboard/index"
